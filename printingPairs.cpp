@@ -8,7 +8,6 @@ void printPairs(int arr[], int n) {
         {
             cout << arr[i] << ", " << arr[j] << endl;
         }
-        cout << endl;
     }
 }
 int main() {
