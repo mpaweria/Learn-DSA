@@ -15,7 +15,6 @@ void printArray(vector<int> vec)
 int main() 
 {
     vector<int> vec = {1, 5, 3, 8, 0, -3, -5};
-
     // sort(vec.begin(), vec.end(), compare);       //this is the inbuilt sort function, it also takes a 3rd argument
 
     // there's also an inbuilt comparator greater<int>();
