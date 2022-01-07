@@ -16,9 +16,8 @@ int subarraySum2 (int arr[], int n) {
     {
         for(int j=i; j<n; j++)
         {
-            sum = (i>0) ? prefix[j] - prefix[i-1] : prefix[j];
+            sum = (i>0) ? prefix[j] - prefix[i-1] : prefix[j];      // i>0 because when i=0, a[i-1] will be a[-1], which doesn't exist
             max = (max < sum) ? sum : max;
-
         }
     }
     return max;

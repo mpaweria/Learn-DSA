@@ -6,7 +6,7 @@ using namespace std;
 vector<int> insertionSort(vector<int> vec)
 {
     int n = vec.size(), current, prev;
-    for(int i=0; i<=n-1; i++)
+    for(int i=1; i<=n-1; i++)
     {
         current = vec[i];
         prev = i-1;    
