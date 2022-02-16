@@ -1,0 +1,1 @@
+(n & n-1) == 0) ? "Power of 2" : "Not a power of 2"
